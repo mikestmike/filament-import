@@ -3,6 +3,7 @@
 namespace Konnco\FilamentImport\Actions;
 
 use Closure;
+use Filament\Tables\Table;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\CanCustomizeProcess;
 use Filament\Forms\ComponentContainer;
