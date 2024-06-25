@@ -37,6 +37,11 @@ class ImportAction extends Action
 
     protected ?Closure $handleRecordCreation = null;
 
+    public function table(Table $table): void
+    {
+        return;
+    }
+    
     public static function getDefaultName(): ?string
     {
         return 'import';
